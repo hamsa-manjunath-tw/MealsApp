@@ -23,7 +23,5 @@ class MealsCategoriesViewModel(private val repository: MealsRepository = MealsRe
 
     private suspend fun getMeals(): List<MealResponse> {
         return repository.getMeals().mealCategories
-
-
     }
 }
